@@ -1,10 +1,11 @@
-import  MeuComponente  from './components/meucomponente.tsx'
+import  MeuComponente  from './components/example/meucomponente.tsx'
+import Home from './pages/Home/home.tsx'
 
 function App() {
 
   return (
     <div>
-      <MeuComponente/>
+      <Home/>
     </div>
   )
 }
